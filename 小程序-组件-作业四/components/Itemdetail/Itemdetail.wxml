@@ -1,0 +1,4 @@
+<view class="wrap">
+    <view  class="name"><text>{{data.name}}</text></view>
+    <view class="al"><text>{{data.al.name}}</text></view>
+</view>

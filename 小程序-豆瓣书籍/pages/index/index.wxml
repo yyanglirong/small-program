@@ -1,0 +1,33 @@
+<view class="nav">
+  <text class="title">豆瓣读书</text>
+  <form bind:submit="handleSubmit">
+    <view class="form">
+      <view class="search-wrap">
+
+        <input type="text" name="keyword"/>
+      </view>
+      <button form-type="submit"><image src="/images/search.png"></image></button>
+    </view>
+  </form>
+</view>
+<view class="content" >
+  <view class="wrap"
+  bind:tap="handleClcik" data-id="{{item.id}}"
+  wx:for="{{book}}" wx:key="{{item}}">
+    <image  src="{{item.img}}"></image>
+    <view class="right">
+      <text class="name">{{item.name}}</text>
+      <view class="cont">
+        <text class="score">评分:{{item.average}}</text>
+        <text class="num">({{item.num}}人评价)</text>
+      </view>
+      <text class="writer">{{item.author}}/{{item.translator}}/{{item.publisher}}/{{item.pubdate}}/{{item.price}}</text>
+    </view>
+  </view>
+</view>
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+
+<view class="wrap">
+    <slot name="lisn">
+    </slot>
+    <text class="lisen">{{data.lisen}}万</text>
+    <image class="img" src="{{data.pic}}" />
+    <text class="describe">{{data.name}}</text>
+    <text class="by">by  {{data.by}}</text>
+</view>
+

@@ -1,0 +1,19 @@
+.container{
+    width: 200rpx;
+    height: 250rpx;
+    margin-top: 70rpx;
+}
+.container image{
+    width: 200rpx;
+    height: 200rpx;
+    padding: 10rpx;
+}
+.container text{
+    font-size: 30rpx;
+    padding-left: 10rpx;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    max-width: 100%;
+}

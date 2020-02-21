@@ -1,0 +1,35 @@
+.img{
+    width: 220rpx;
+    height: 220rpx;
+}
+.wrap{
+    height: 340rpx;
+    width: 220rpx;
+    margin-top: 20rpx;
+    position: relative;
+}
+.describe{
+    font-size: 28rpx;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden;
+    display: inline-block;
+    max-width: 100%;
+}
+.by{
+    color: gray;
+    font-size: 28rpx;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden;
+    display: inline-block;
+    max-width: 100%;
+}
+.lisen{
+    position: absolute;
+    top: 183rpx;
+    font-size: 28rpx;
+    color: #fff;
+    left: 50rpx;
+    opacity: 0.6;
+}

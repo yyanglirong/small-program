@@ -1,0 +1,47 @@
+
+.list{
+    display: flex;
+    height: 150rpx;
+    align-items: center;
+    position: relative;
+}
+.pic{
+    width: 100rpx;
+    height: 100rpx;
+    padding-left: 20rpx;
+}
+.content{
+    height: 150rpx;
+    width: 500rpx;
+    position: relative;
+}
+.title{
+    color: black;
+    font-size: 30rpx;
+    position: absolute;
+    left: 20rpx;
+    top: 30rpx;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 500rpx;
+}
+.compose{
+    position: absolute;
+    left: 20rpx;
+    top: 80rpx;
+    font-size: 25rpx;
+    color: slategray;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 500rpx;
+}
+.active{
+    width: 50rpx;
+    height: 50rpx;
+    position: absolute;
+    right: 40rpx;
+}

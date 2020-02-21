@@ -1,0 +1,16 @@
+<view class="title">
+    <text>{{artist.name}}</text>
+    <image src="{{artist.img1v1Url}}" />
+</view>
+<van-tabs active="{{ active }}">
+  <van-tab title="热门作品">
+    <v-item  wx:for="{{song}}" data="{{item}}" wx:key="{{item}}"></v-item>
+  </van-tab>
+  <van-tab title="所有专辑">
+    <view class="wrap">
+      <C-item wx:for="{{artists}}" wx:key="{{item}}" data="{{item}}"></C-item>
+    </view>
+  </van-tab>
+  <van-tab title="相关mv">内容 3</van-tab>
+  <van-tab title="艺人介绍">内容 4</van-tab>
+</van-tabs>

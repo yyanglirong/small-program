@@ -1,0 +1,35 @@
+<view class="container">
+    <view class="left">
+        <image src="{{data.blurCoverUrl}}" />
+    </view>
+    <view class="right">
+        <text class="name">{{data.mainSong.name}}</text>
+        <text class="brand">{{data.dj.brand}}</text>
+        <text class="subCount">訂閲:({{data.radio.subCount}})</text>
+    </view>
+</view>
+<view class="content">
+    <view class="active" bind:tap="click" data-id="{{data.playid}}">
+        <text>播放{{data.duration}}</text>
+    </view>
+    <view class="like">
+                <image src="/images/点赞 (1).png"></image>
+                ({{data.likedCount}})
+    </view>
+    <view class="like">
+                <image src="/images/信息.png"></image>
+                ({{data.commentCount}})
+    </view>    
+    <view class="like">
+                <image src="/images/分享.png"></image>分享
+    </view>    
+    <view class="like">
+                <image src="/images/下载.png"></image>下载
+    </view> 
+</view>
+<view class="wrap">
+    <text class="title">{{data.radio.category}}</text>
+    <text class="serialNum">{{data.radio.name}}  第{{data.serialNum}}期</text>
+</view>
+<view class="description">介绍:{{data.description}}</view>
+

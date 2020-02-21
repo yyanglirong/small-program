@@ -1,0 +1,14 @@
+<view>
+    <view class="top">
+        <image class="img" src="{{data.pic}}"></image>
+        <view class="right">
+            <text class="title">{{data.name}}</text>
+            <image class="Head" src="{{data.img}}"></image>
+            <text class="som">{{data.nickname}}</text>
+        </view>
+    </view>
+    <view class="content">
+        <text>标签：{{data.tags}}</text>
+        <text class="desc">简介：{{data.description}}</text>
+    </view>
+</view>

@@ -1,0 +1,27 @@
+.wrap{
+    font-size: 40rpx;
+    font-weight: 500;
+    display: flex;
+}
+.rigth{
+    margin-left: 20rpx;
+    font-size: 30rpx;
+}
+.wrap text{
+    display: block;
+    line-height: 50rpx;
+}
+.wrap image{
+    width: 350rpx;
+    height: 400rpx;
+}
+.details{
+    font-size: 30rpx;
+    padding: 10rpx;
+}
+.title{
+    font-size: 50rpx;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+}

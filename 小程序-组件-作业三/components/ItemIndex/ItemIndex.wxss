@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    margin-top: 30rpx;
+}
+.left{
+    width: 500rpx;
+    font-size: 30rpx;
+    display: flex;
+}
+.pic{
+    width: 150rpx;
+    height: 150rpx;
+    flex: 1;
+}
+.name{
+   padding-top: 55rpx;
+   flex: 2;
+   width: 300rpx;
+   text-align: center;
+   text-overflow: ellipsis; 
+    display:block;
+    overflow: hidden;  
+    white-space: nowrap;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30rpx;
+    margin-left: 80rpx;
+}

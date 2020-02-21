@@ -1,0 +1,5 @@
+<view class="list">
+    <image src="{{data.img}}"></image>
+    <text class="songname">{{data.songName}}</text>
+    <text class="ar">{{data.sonsar}}</text>
+</view>

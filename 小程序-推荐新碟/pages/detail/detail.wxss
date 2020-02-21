@@ -1,0 +1,80 @@
+.top{
+    height: 400rpx;
+    background: black;
+    display: flex;
+}
+.left{
+    width: 300rpx;
+    height: 400rpx;
+    padding: 20rpx;
+}
+.left image{
+    width: 300rpx;
+    height: 300rpx;
+    margin-top: 30rpx;
+    margin-bottom: 30rpx;
+}
+.right{
+    width: 400rpx;
+    color: #fff;
+    padding: 40rpx;
+}
+.right text{
+    display: block;
+}
+.name{
+    line-height: 50rpx;
+    margin-bottom: 30rpx;
+}
+.singer{
+    font-size: 30rpx;
+}
+.detatil{
+    height: 200rpx;
+    padding: 30rpx;
+    font-size: 30rpx;
+    width: 700rpx;
+}
+.detatil text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+.list{
+    font-size: 25rpx;
+    margin-left: 30rpx;
+}
+.container{
+    height: 150rpx;
+    display: flex;
+    align-items: center;
+}
+.num{
+    color: gray;
+    font-size: 40rpx;
+    display: block;
+    width: 80rpx;
+    height: 80rpx;
+    text-align: center;
+    margin-top:40rpx;
+}
+.wrap text{
+    display: block;
+}
+.title{
+    font-size: 35rpx;
+    color: black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 600rpx;
+}
+.warter{
+    font-size: 25rpx;
+    color: gray;
+}
+.wrap{
+    height: 80rpx;
+    
+}

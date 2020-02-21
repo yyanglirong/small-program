@@ -1,0 +1,5 @@
+<view class="wrap">
+    <image class="pic" src="{{data.user}}"></image>
+    <text class="name">{{data.name}}</text>
+    <text class="pinlun">{{data.content}}</text>
+</view>

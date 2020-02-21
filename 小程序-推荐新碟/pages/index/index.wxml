@@ -1,0 +1,17 @@
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="全部">
+    <view class="container" >
+      <view class="item" wx:for="{{Chinese}}"
+      bind:tap="handleClick"
+      data-id="{{item.id}}">
+        <image src="{{item.img}}" />
+        <text class="title">{{item.name}}</text>
+        <text class="name">{{item.waiter}}</text>
+      </view>
+    </view>
+  </van-tab>
+  <van-tab title="华语">内容 2</van-tab>
+  <van-tab title="欧美">内容 3</van-tab>
+  <van-tab title="韩国">内容 4</van-tab>
+  <van-tab title="日本">内容 4</van-tab>
+</van-tabs>

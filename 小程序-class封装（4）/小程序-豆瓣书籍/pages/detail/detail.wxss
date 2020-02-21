@@ -1,0 +1,41 @@
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 55rpx;
+    font-weight: 600;
+    margin-left: 20rpx;
+    margin-bottom: 20rpx;
+}
+.content image{
+    width: 280rpx;
+    height: 450rpx;
+    margin-left: 20rpx;
+
+}
+.content{
+    display: flex;
+}
+.right{
+    width: 450rpx;
+    padding: 30rpx;
+}
+.right text{
+    display: block;
+    font-size: 35rpx;
+    line-height: 50rpx;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    overflow: hidden;
+}
+.bottom text{
+    height: 200rpx;
+    display: block;
+    width: 700rpx;
+    padding: 30rpx;
+    font-size: 35rpx;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;/* 
+    text-overflow:ellipsis; */
+}

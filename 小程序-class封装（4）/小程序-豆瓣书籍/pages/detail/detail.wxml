@@ -1,0 +1,19 @@
+<view class="container" wx:for="{{sos}}">
+    <text class="title">{{item.name}}</text>
+    <view class="content">
+        <image src="{{item.img}}"></image>
+        <view class="right">
+            <text>作者：{{item.author}}</text>
+            <text>出版社：{{item.publisher}}</text>
+            <text>副标题：{{item.subtitle}}</text>
+            <text>出版年：{{item.pubdata}}</text>
+            <text>页数：{{item.pages}}</text>
+            <text>定价：{{item.price}}</text>
+            <text>装帧：{{item.binding}}</text>
+        </view>
+    </view>
+    <view class="bottom">
+        <text>内容简介：{{item.summary}}</text>
+        <text>作者简介:{{item.author_intro}}</text>
+    </view>
+</view>

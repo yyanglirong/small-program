@@ -1,0 +1,5 @@
+<view class="container" bind:tap="handeleclick">
+        <image src="{{data.img1v1Url}}" />
+        <text>{{data.name}}</text>
+</view>
+

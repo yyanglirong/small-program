@@ -1,0 +1,33 @@
+.item{
+    width: 180rpx;
+    height: 280rpx;
+    padding: 10rpx;
+    margin-top: 20rpx;
+}
+image{
+    width: 180rpx;
+    height: 180rpx;
+    border: 1px solid pink;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20rpx;
+}
+.title{
+    font-size: 25rpx;
+    color: black;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.name{
+    font-size: 25rpx;
+    color: gray;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

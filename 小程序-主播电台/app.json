@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chan/chan"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#C20C0C",
+    "navigationBarTitleText": "网易云音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "color":"#7B7B7B",
+    "selectedColor":"#C20C0C",
+    "position":"top",
+    "borderStyle":"black",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"推荐"
+      },{
+        "pagePath":"pages/chan/chan",
+        "text":"华语"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

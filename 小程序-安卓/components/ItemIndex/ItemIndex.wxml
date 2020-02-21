@@ -1,0 +1,5 @@
+    <view class="container">
+        <text class="desc">{{data.desc}}</text>
+        <text class="who">{{data.who}}</text>
+        <text class="pubils">{{data.publishedAt}}</text>
+    </view>

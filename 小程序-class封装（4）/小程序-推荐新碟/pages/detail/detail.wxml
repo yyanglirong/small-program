@@ -1,0 +1,20 @@
+<view class="top" wx:for="{{album}}" wx:key="{{item}}">
+    <view class="left">
+        <image src="{{item.baseUrl}}"></image>
+    </view>
+    <view class="right">
+        <text class="name">{{item.name}}</text>
+        <text class="singer">歌手：{{item.artists}}</text>
+    </view>
+</view>
+<view class="detatil" wx:for="{{album}}" wx:key="{{item}}" >
+    <text>简介：{{item.description}}</text>
+</view>
+<text class="list">歌曲列表</text>
+<view class="container" wx:for="{{songs}}" wx:key="{{item}}" >
+    <text class="num">1</text>
+    <view class="wrap">
+        <text class="title">{{item.title}}({{item.detatil}})</text>
+        <text class="warter">{{item.wrater}}-{{item.al}}</text>
+    </view>
+</view>

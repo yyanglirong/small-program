@@ -1,0 +1,11 @@
+<view class="wrap" wx:for="{{programs}}" wx:key="{{item}}">
+  <image src="{{item.img}}"></image>
+  <view class="content">
+    <text bind:tap="handleClick"
+    data-id="{{item.id}}"
+    class="name">{{item.name}}</text>
+    <text class="present">{{item.detatils}}</text>
+  </view>
+  <text class="sort">{{item.sort}}</text>
+</view> 
+

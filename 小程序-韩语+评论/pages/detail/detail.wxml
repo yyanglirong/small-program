@@ -1,0 +1,5 @@
+<view>
+    <v-item wx:for="{{code}}" data="{{item}}" ></v-item>
+    <c-item wx:for="{{songs}}" data="{{item}}" 
+    bind:tap="handleclick" data-ids="{{ids}}"></c-item>
+</view>

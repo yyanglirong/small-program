@@ -1,0 +1,22 @@
+.list{
+    position: relative;
+    height: 100rpx;
+    margin-top: 20rpx;
+}
+image{
+    position: absolute;
+    width: 80rpx;
+    height: 80rpx;
+    left: 30rpx;
+}
+.songname{
+    font-size: 30rpx;
+    position: absolute;
+    left:150rpx;
+}
+.ar{
+    font-size: 30rpx;
+    position: absolute;
+    left: 150rpx;
+    top: 40rpx;
+}

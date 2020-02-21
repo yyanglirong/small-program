@@ -1,0 +1,8 @@
+<view class="container">
+  <v-item wx:for="{{music}}" data="{{item}}" 
+  bind:tap="handleCilck" data-id="{{item.id}}">
+    <view class="lisn" slot="lisn">
+      <image src="/images/p0.png" />
+    </view>
+  </v-item>
+</view>

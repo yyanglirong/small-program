@@ -1,0 +1,30 @@
+.wrap{
+    position: relative;
+    height: 200rpx;
+    border-bottom: 1rpx solid #333;
+    margin-top: 30rpx;
+}
+.pic{
+    position: absolute;
+    left: 30rpx;
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+}
+.name{
+    position: absolute;
+    font-size: 35rpx;
+    color: gray;
+    left: 200rpx;
+}
+.pinlun{
+    position: absolute;
+    top: 50rpx;
+    left: 200rpx;
+    font-size: 35rpx;
+    color: black;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}

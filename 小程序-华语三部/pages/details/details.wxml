@@ -1,0 +1,12 @@
+<view class="container">
+    <view class="list" wx:for="{{musics}}" wx:key="{{item}}"
+    bind:tap="handleClick" data-id="{{item.id}}"
+    data-pic="{{item.pic}}">
+        <image class="pic" src="{{item.pic}}"/>
+        <view class="content">
+                <text class="title">{{item.name}}</text>
+                <text class="compose">{{item.ar}}-{{item.album}}</text>
+        </view>
+        <image class="active" src="/images/mv.png" alt=""/>
+    </view>
+</view>

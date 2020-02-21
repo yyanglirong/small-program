@@ -1,0 +1,24 @@
+.pic{
+    width: 400rpx;
+    height: 400rpx;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lisent{
+    width: 400rpx;
+    height: 400rpx;
+    position: relative;
+}
+.palys{
+   position: absolute;
+}
+.active{
+    width: 50rpx;
+    height: 50rpx;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

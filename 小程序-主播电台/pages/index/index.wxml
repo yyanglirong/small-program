@@ -1,0 +1,25 @@
+<!-- <view class="container">
+  <view class="search">
+    <image class="searchBg" src="/image/搜索.png"></image>
+    <input type="text" placeholder="请搜索"/>
+  </view>
+  <button>搜索</button>
+</view> -->
+<view class="content">
+  <view class="wrap">
+    <span>推荐节目</span>
+    <span>(每日更新)</span>
+    <view class="record" wx:for="{{musics}}" wx:key="{{item}}">
+        <image src="{{item.imgUrl}}"/>
+      <view class="between">
+          <text class="songs">{{item.title}}</text>
+          <text class="songsName">{{item.artists}}|</text>
+          <text>播放{{item.listent}}</text>
+      </view>
+      <view class="right">
+      <text class="cate">{{item.chan}}</text>
+
+      </view>
+  </view>
+</view>
+</view>

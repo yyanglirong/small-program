@@ -1,0 +1,22 @@
+.record image{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 10rpx;
+}
+.wrap{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20rpx;
+}
+.record{
+    margin-bottom: 20rpx;
+}
+.record text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 200rpx;
+    display: block;
+    font-size: 30rpx;
+}

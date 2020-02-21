@@ -1,0 +1,9 @@
+<view class="container" >
+      <view class="item" wx:for="{{Chinese}}"
+      bind:tap="handleClick"
+      data-id="{{item.id}}">
+        <image src="{{item.img}}" />
+        <text class="title">{{item.name}}</text>
+        <text class="name">{{item.waiter}}</text>
+      </view>
+</view>

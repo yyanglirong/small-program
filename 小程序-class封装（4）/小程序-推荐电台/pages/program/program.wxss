@@ -1,0 +1,85 @@
+.pic{
+    width: 200rpx;
+    height: 200rpx;
+    border: 1rpx solid rgb(223, 220, 220);
+    padding: 10rpx;
+    margin-left: 20rpx;
+}
+.pic image{
+    width: 200rpx;
+    height: 200rpx; 
+}
+.container{
+    position: relative;
+}
+.right{
+    position: absolute;
+    left: 270rpx;
+    top: 0;
+}
+.pag{
+    display: inline-block;
+    background-color: #DC2020;
+    border: 1rpx solid #DC2020;
+    border-radius: 5rpx;
+    color: #ffff;
+    font-size:25rpx;
+    padding: 10rpx;
+}
+.name{
+    margin-left: 10rpx;
+}
+.top{
+    margin-top: 30rpx;
+    width: 400rpx;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.botoom{
+    margin-top: 40rpx;
+}
+.brand{
+    color: gray;
+    font-size: 35rpx;
+}
+.subCont{
+    border: 1px solid rgb(223, 220, 220);
+    border-radius: 5rpx;
+    padding: 10rpx;
+    margin-left: 20rpx;
+    font-size: 25rpx;
+}
+.play{
+    display: flex;
+    background-color: #3282CE;
+    font-size: 25rpx;
+    border: 1rpx solid #3282CE;
+    border-radius: 5rpx;
+    padding: 10rpx;
+    height: 40rpx;
+    color: aliceblue;
+    margin-right: 10rpx;
+}
+.list image{
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 10rpx;
+}
+.list{
+    display: flex;
+    margin-top: 20rpx;
+    margin-left: 30rpx;
+}
+.like{
+    border: 1rpx solid rgb(223, 220, 220);
+    padding: 10rpx;
+    border-radius: 5rpx;
+    height: 40rpx;
+    font-size: 25rpx;
+    display: flex;
+}
+.left{
+    margin-left: 10rpx;
+    color: gray;
+}

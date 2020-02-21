@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+}
+.left{
+    width: 200rpx;
+    height: 200rpx;
+    padding: 30rpx;
+}
+.left image{
+    width: 200rpx;
+    height: 200rpx;
+    border: 1px solid rgb(190, 189, 189);
+    padding: 10rpx;
+}
+.right{
+    padding: 30rpx;
+    width: 450rpx;
+}
+.name{
+    font-size: 35rpx;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 90%;
+}
+.brand{
+    font-size: 30rpx;
+    color: gray;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 90%;
+    margin-top: 30rpx;
+    margin-bottom:20rpx;
+}
+.active{
+    width: 200rpx;
+    height: 50rpx;
+    background:#1D6EBE;
+    color: #fff;
+    font-size: 30rpx;
+    border-radius: 10rpx;
+    margin-left: 30rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subCount{
+    display: inline-block;
+    border-radius: 10rpx;
+    font-size: 30rpx;
+    padding: 15rpx;
+    border: 1px solid  rgb(168, 168, 168);
+}
+.content{
+    display: flex;
+    margin-top: 20rpx;
+}
+.content image{
+    width: 35rpx;
+    height: 35rpx;
+}
+.like{
+    font-size: 25rpx;
+    border-radius: 10rpx;
+    padding-left: 10rpx;
+    padding-right: 10rpx;
+    margin-left: 20rpx;
+    display: flex;
+    justify-content: center;
+    color: gray;
+    align-items: center;
+    border: 1px solid  rgb(168, 168, 168);
+}
+.wrap{
+    display: flex;
+    margin-top: 20rpx;
+    margin-left: 30rpx;
+}
+.title{
+    border: 1px solid#C20C0C;
+    padding-left: 10rpx;
+    padding-right: 10rpx;
+    font-size: 30rpx;
+    color: #C20C0C;
+}
+.serialNum{
+    font-size: 30rpx;
+    padding-left: 10rpx;
+    color: black;
+    font-weight: 600;
+}
+.description{
+    padding: 30rpx;
+    font-size: 30rpx;
+    color: gray;
+}

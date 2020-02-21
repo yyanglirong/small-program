@@ -1,0 +1,31 @@
+.container{
+    height: 150rpx;
+    position: relative;
+    border-bottom: 1px solid #333;
+}
+.desc{
+    position: absolute;
+    display: block;
+    font-size: 35rpx;
+    color:blue;
+    max-width: 90%; 
+    margin-left: 40rpx;
+    top: 20rpx;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden; 
+}
+.who{
+    position: absolute;
+    top: 83rpx;
+    left: 45rpx;
+    font-size: 35rpx;
+    color: gray;
+}
+.pubils{
+    position: absolute;
+    top: 83rpx;
+    left: 303rpx;
+    font-size: 35rpx;
+    color: gray;
+}

@@ -1,0 +1,4 @@
+<view>
+    <v-item wx:for="{{programs}}" wx:key="{{item}}" data="{{item}}">
+    </v-item>
+</view>

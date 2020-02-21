@@ -1,0 +1,5 @@
+<view class="wrap">
+    <slot name="pic"></slot>
+    <image class="pics" src="{{data.img}}" />
+    <text class="title">{{data.title}}</text>
+</view>

@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/details/details",
+    "pages/active/active"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#C20C0C",
+    "navigationBarTitleText": "网易云音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "requiredBackgroundModes":[
+    "audio",
+    "location"
+  ],
+  "sitemapLocation": "sitemap.json"
+}

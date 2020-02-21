@@ -1,0 +1,6 @@
+<view class="wrap">
+        <view class="record" wx:for="{{music}}" wx:key="{{item}}">
+                <image src="{{item.img}}"/>
+        <text>{{item.name}}</text>
+      </view>
+    </view>

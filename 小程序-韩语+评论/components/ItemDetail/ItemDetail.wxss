@@ -1,0 +1,56 @@
+.top{
+    position: relative;
+    height: 400rpx;
+    background: rgb(214, 214, 214);
+}
+.img{
+    position: absolute;
+    top: 70rpx;
+    left: 50rpx;
+    width:300rpx ;
+    height: 300rpx;
+}
+.right{
+    position: absolute;
+    left: 360rpx;
+    top: 120rpx;
+}
+.right .Head{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    position: absolute;
+    left: 30rpx;
+    top: 108rpx;
+}
+.title{
+    font-size: 38rpx;
+    width: 400rpx;
+    color: #fff;
+    display: block;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.som{
+    position: absolute;
+    left: 160rpx;
+    top: 130rpx;
+}
+.content{
+    height: 300rpx;
+    font-size: 35rpx;
+    padding: 30rpx;
+}
+.content text{
+    display: block;
+}
+.desc{
+    display: inline-block; 
+    max-height:100%; 
+    font-size: 14px;
+    text-overflow: ellipsis;  
+    white-space: nowrap;
+    overflow: hidden; 
+}

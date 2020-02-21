@@ -1,0 +1,3 @@
+<v-item wx:for="{{hot}}" data="{{item}}">
+
+</v-item>

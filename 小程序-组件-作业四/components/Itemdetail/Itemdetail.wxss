@@ -1,0 +1,21 @@
+.name{
+    font-size: 30rpx;
+    width: 400rpx;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 30rpx;
+}
+.al{
+    font-size: 30rpx;
+    width: 220rpx;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 50rpx;
+}
+.wrap{
+    display: flex;
+    margin-bottom: 20rpx;
+    margin-top: 20rpx;
+}

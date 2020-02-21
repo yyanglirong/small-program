@@ -1,0 +1,18 @@
+.wrap{
+    width: 220rpx;
+    height: 300rpx;
+    position: relative;
+    margin-top: 20rpx;
+}
+.pics{
+    width: 220rpx;
+    height: 220rpx;
+    border-radius: 8rpx;
+}
+.title{
+    font-size: 28rpx;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}

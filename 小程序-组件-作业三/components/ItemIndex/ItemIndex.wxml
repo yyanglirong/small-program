@@ -1,0 +1,11 @@
+<view class="container" bind:tap="handleClick">
+    <view class="left">
+        <image class="pic" src="{{data.blurCoverUrl}}"></image>
+        <view class="name">
+            <text>{{data.mainSong.name}}</text>
+        </view>
+    </view>
+    <view class="right">
+       {{data.radio.category}}
+    </view>
+</view>

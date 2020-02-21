@@ -1,0 +1,9 @@
+<view class="container" wx:for="{{music}}" wx:key="{{item}}">
+    <view class="lisent">
+            <image class="pic" src="{{item.img}}"></image>
+            <view class="plays">
+              <image class="active"  data-url="{{item.musicUrl}}" 
+              bind:tap="handlePlay" src='{{play?"/images/播放 (1).png":"/images/暂停.png"}}'></image>
+            </view>
+    </view>
+</view>

@@ -1,0 +1,4 @@
+<view class="container" wx:for="{{one}}">
+    <image class="bse"  src="{{item.img}}"></image>
+    <image  bind:tap="handleClick" class="play" src="{{isPlay?'/images/播放 (1).png':'/images/暂停.png'}}"></image>
+</view>

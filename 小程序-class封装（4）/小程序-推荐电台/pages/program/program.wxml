@@ -1,0 +1,41 @@
+<view class="container" wx:for="{{program}}" wx:key="{{item}}">
+    <view class="pic">
+        <image src="{{item.img}}"></image>
+    </view>
+    <view class="right">
+        <view class="top">
+                <text class="pag">电台节目</text>
+                <text class="name">{{item.name}}</text>
+        </view>
+        <view class="botoom">
+            <text class="brand">{{item.detatils}}</text>
+            <text class="subCont">订阅({{item.Subscribe}})</text>
+        </view>
+    </view>
+    <view class="list">
+        <view class="play" bind:tap="handleClick"
+    data-id="{{item.id}}"
+    data-name="{{item.name}}"
+    data-img="{{item.img}}">
+            <image src="/images/播放.png"></image>
+            <text>播放{{item.time}}</text>
+        </view>
+        <view class="like">
+            <image src="/images/赞.png"></image>
+            <text>({{item.like}})</text>
+        </view>
+        <view class="like left">
+            <image src="/images/信息.png"></image>
+            <text>({{item.comment}})</text>
+        </view>
+        <view class="like left">
+            <image src="/images/转发.png"></image>
+            <text>({{item.share}})</text>
+        </view>
+        <view class="like left">
+            <image src="/images/下载.png"></image>
+            <text>下载</text>
+        </view>
+    </view>
+    
+</view>

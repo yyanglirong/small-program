@@ -1,0 +1,92 @@
+.search image{
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  left: 25rpx;
+  top: 18rpx;
+}
+input{
+  width: 400rpx;
+  height: 90rpx;
+  border: 1px solid rgba(219, 219, 219, 0.959);
+  border-radius: 50rpx;
+  padding: 0 2em;
+  background: #fff;
+  margin-left: 10rpx;
+}
+.search{
+  position: relative;
+  position: absolute;
+}
+.container{
+  height: 140rpx;
+  position: relative;
+  background: black;
+  display: flex;
+  align-items: center;
+}
+button{
+  position: absolute;
+  border-radius: 50rpx;
+  border: 1px solid rgba(219, 219, 219, 0.959);
+  height: 90rpx;
+  right: 30rpx;
+  top: o;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35rpx;
+  color: rgb(126, 123, 123);
+}
+.wrap{
+  margin-top: 20rpx;
+}
+.wrap>span:first-child{
+  font-size: 40rpx;
+  font-weight: 600;
+  
+}
+.wrap>span:nth-of-type(2){
+  color: rgb(126, 123, 123);
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+.record image{
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+}
+.record{
+  display: flex;
+}
+.songs{
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 400rpx;
+  line-height: 80rpx;
+  color: black;
+}
+.between{
+  color: rgb(83, 82, 82);
+  font-size: 30rpx;
+  margin-left: 20rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 400rpx;
+}
+.cate{
+  font-size: 30rpx;
+  border: 1px solid rgba(219, 219, 219, 0.959);
+  padding: 0 10rpx 0 10rpx;
+}
+.right{
+  margin-left: 10rpx;
+  display: flex;
+  align-items: center;
+}
+

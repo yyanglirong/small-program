@@ -1,0 +1,6 @@
+<view class="container">
+    <v-item wx:for="{{And}}" wx:key="item"
+    data="{{item}}"> 
+
+    </v-item>
+</view>

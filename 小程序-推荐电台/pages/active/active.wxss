@@ -1,0 +1,20 @@
+.container .bse{
+    width: 500rpx;
+    height: 500rpx;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 50rpx;
+}
+.container .play{
+    width: 80rpx;
+    height: 80rpx;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    opacity: 0.5;
+}
+.container{
+   position: relative;
+}

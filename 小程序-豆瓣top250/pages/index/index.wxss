@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    width: 150rpx;
+    padding: 20rpx;
+    margin-top: 30rpx;
+    border: 1rpx solid rgb(138, 137, 137);
+    box-shadow:0 0 10rpx 1rpx rgb(138, 137, 137);
+    font-size:30rpx;
+}
+image{
+    width: 150rpx;
+    height: 200rpx;
+}

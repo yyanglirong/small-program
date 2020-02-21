@@ -1,0 +1,3 @@
+<view class="wrap">
+    <v-item wx:for="{{artists}}" wx:key="{{item}}" data="{{item}}"></v-item>
+</view>

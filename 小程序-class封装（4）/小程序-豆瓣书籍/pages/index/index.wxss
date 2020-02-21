@@ -1,0 +1,82 @@
+.wrap{
+  height: 280rpx;
+  display: flex;
+  margin-top: 20rpx;
+}
+.wrap image{
+  width: 200rpx;
+  height: 250rpx;
+  padding: 30rpx;
+}
+.right{
+  padding: 40rpx;
+  width: 500rpx;
+}
+.name{
+  color: blueviolet;
+  font-size: 35rpx;
+}
+.cont{
+  height: 50rpx;
+  margin-top: 40rpx;
+}
+.score{
+  font-size: 30rpx;
+  color: orange;
+}
+.num{
+  color: gray;
+  font-size: 30rpx;
+}
+.writer{
+  color: gray;
+  font-size: 30rpx;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow:ellipsis;
+}
+.nav{
+  background: #F6F6F1;
+  height: 150rpx;
+  position: relative;
+}
+.title{
+  font-size:50rpx;
+  color: #543B22;
+  align-items: center;
+  left: 35%;
+  font-weight: 600;
+  position: absolute;
+}
+image{
+  width: 40rpx;
+  height: 40rpx;
+}
+input{
+  width: 499rpx;
+  height: 60rpx;
+  border: 1px solid pink;
+  position: absolute;
+  left: 70rpx;
+  border-radius: 30rpx;
+  padding: 0 0.5em;
+}
+.search-wrap{
+  position: absolute;
+  height: 60rpx;
+  top: 80rpx;
+}
+button{
+  position: absolute;
+  height:64rpx;
+  top: 80rpx;
+  left: 502rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(197, 196, 196);
+  outline: none;
+  z-index: 900;
+}

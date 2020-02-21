@@ -1,0 +1,8 @@
+<view class="container">
+  <v-item wx:for="{{music}}" data="{{item}}">
+      <view slot="pic" class="icon">
+        <image src="/images/p0.png" />
+      </view>
+  </v-item>
+
+</view>

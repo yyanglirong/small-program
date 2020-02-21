@@ -1,0 +1,9 @@
+.title text{
+    font-size: 50rpx;
+    font-weight: 600;
+}
+.title image{
+    border: 1px solid gainsboro;
+    width: 100%;
+    height: 500rpx;
+}
